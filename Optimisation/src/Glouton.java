@@ -1,6 +1,6 @@
 /*
  
- [Problème du sac à dos]
+ [Probleme du sac a dos]
  Utilisation d'un algorithme glouton
   
  */
@@ -38,7 +38,7 @@ public class Glouton {
 			objets.add(b);
 		}
 		
-		// On considere que les objets sont tries par ordre décroissant d'efficacite
+		// On considere que les objets sont tries par ordre decroissant d'efficacite
 		
 		int poids_conso = 0;
 		int valeur_total = 0;

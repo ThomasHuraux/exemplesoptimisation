@@ -2,7 +2,7 @@
  
  [Recuit Simule]
 
- Pour info, le recuit simulé est la première métaheuristique qui a été proposée.
+ Pour info, le recuit simule est la premiere metaheuristique qui a ete proposee.
 
  */
 
@@ -34,34 +34,26 @@ public class RecuitSimule {
 	}
 
 	public static void main(String[] args) {
+		 @SuppressWarnings("unused")
         Random r = new Random();
         
         double x = 1;
         double temperature = maxTemperature;
         
         int currentIteration = 0;
-        double eval = f(x);
+        @SuppressWarnings("unused")
+		double eval = f(x);
         
         int totalIt = 1;
         while(temperature > minTemperature){
                 for(int i = 0; i < NB_MAX_ITER; i++){
                         currentIteration++;
                         
-                      /*  double _x = function.perturb(x);
-                        double _eval = eval(_x);
-
-                        if(_eval < eval){
-                                x = _x;
-                                eval = _eval;
-                                lastBestFoundOn = totalIt;
-                        } else {
-                                double rand = r.nextDouble();
-                                double exp = Math.exp((eval - _eval)/temperature);
-                                if(rand < exp){
-                                        x = _x;
-                                        eval = _eval;
-                                }
-                        }*/
+                        /*
+                         * [A TERMINER]
+                         */
+                        
+                        
                         totalIt++;
                 }
                 temperature *= STEP;

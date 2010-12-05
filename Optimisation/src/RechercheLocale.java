@@ -8,7 +8,7 @@ public class RechercheLocale {
 
 	/*
 	 
-	 On cherche à minimiser -sin(2x)/(x+1) avec une simple recherche locale
+	 On cherche a minimiser -sin(2x)/(x+1) avec une simple recherche locale
 	 
 	 (On utlise ici le "meilleur voisin" mais on peut egalement prendre un voisin au hasard) 
 	  

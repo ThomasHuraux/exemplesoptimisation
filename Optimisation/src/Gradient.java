@@ -9,12 +9,12 @@ public class Gradient {
 	
 	/*
 	 
-	 On cherche à minimiser E(x,y) avec une descente de gradient
+	 On cherche a minimiser E(x,y) avec une descente de gradient
 	 
 	 On a :
 	 
-	 xi+1 = xi – nu dE/dx(xi, yi)
-	 yi+1 = yi – nu dE/dy(xi, yi)
+	 xi+1 = xi - nu dE/dx(xi, yi)
+	 yi+1 = yi - nu dE/dy(xi, yi)
 	 
 	 E(x,y) = (x-1)(x-2) + (y+3)(y+4)
 	 dE/dx(x, y) = 2x - 3
